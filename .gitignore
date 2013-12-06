@@ -1,3 +1,25 @@
+# ignore backup files
+*~
+.*~
+\#*\#
+
+## Vim
+*.swp
+.netrwhist
+.vim/bundle/*
+## Emacs
+*.elc
+ac-comphist.dat
+## tags
+tags
+
+# ignore directory
+## Emacs
+.emacs.d/auto-save-list/
+.emacs.d/eshell/
+.emacs.d/url/
+.emacs.d/elpa/archives/
+
 # Object files
 *.o
 *.ko
@@ -16,3 +38,4 @@
 *.exe
 *.out
 *.app
+
